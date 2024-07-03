@@ -1,0 +1,170 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Table and three chairs",
+            "slug": "table-and-three-chairs",
+            "description": "Set of three chairs and a designer table for the living room.",
+            "image": "",
+            "price": "150.00",
+            "disocont": "0.00",
+            "quantity": 15,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Table and two chairs",
+            "slug": "table-and-two-chairs",
+            "description": "A selection of a table and two chairs in a minimalist style.",
+            "image": "",
+            "price": "93.00",
+            "disocont": "0.00",
+            "quantity": 17,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Double bed",
+            "slug": "double-bed",
+            "description": "The bed is a twin bed with a headboard and is generally very orthopedic.",
+            "image": "",
+            "price": "670.00",
+            "disocont": "0.00",
+            "quantity": 5,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Kitchen table with sink",
+            "slug": "kitchen-table-with-sink",
+            "description": "�������� ���� ��� ����� � ���������� ��������� � ��������.",
+            "image": "",
+            "price": "365.00",
+            "disocont": "0.00",
+            "quantity": 2,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Kitchen table with built-in",
+            "slug": "kitchen-table-with-built-in",
+            "description": "Kitchen table with built-in stove and sink. Lots of shelves and generally beautiful.",
+            "image": "",
+            "price": "430.00",
+            "disocont": "0.00",
+            "quantity": 7,
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Corner sofa for living room",
+            "slug": "corner-sofa-for-living-room",
+            "description": "Corner sofa, folds out into a double bed, for the living room and receiving guests is perfect!",
+            "image": "",
+            "price": "610.00",
+            "disocont": "5.00",
+            "quantity": 0,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Bedside table",
+            "slug": "bedside-table",
+            "description": "Bedside table with two drawers (flower not included).",
+            "image": "",
+            "price": "55.00",
+            "disocont": "0.00",
+            "quantity": 13,
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Common sofa",
+            "slug": "common-sofa",
+            "description": "The sofa, aka sofa plain, is nothing remarkable to describe.",
+            "image": "",
+            "price": "190.00",
+            "disocont": "0.00",
+            "quantity": 9,
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Chair for office",
+            "slug": "chair-for-office",
+            "description": "Very cool chair",
+            "image": "",
+            "price": "30.00",
+            "disocont": "10.00",
+            "quantity": 0,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Plant",
+            "slug": "plant",
+            "description": "Fresh plant",
+            "image": "",
+            "price": "10.00",
+            "disocont": "20.00",
+            "quantity": 55,
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Another plant",
+            "slug": "another-plant",
+            "description": "Another fresh plant",
+            "image": "",
+            "price": "15.00",
+            "disocont": "33.00",
+            "quantity": 19,
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Another bedside table",
+            "slug": "another-bedside-table",
+            "description": "Very strange",
+            "image": "",
+            "price": "25.00",
+            "disocont": "2.00",
+            "quantity": 33,
+            "category": 5
+        }
+    }
+]
