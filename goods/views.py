@@ -1,14 +1,17 @@
-from django.shortcuts import render
-from django.template import context
+from django.shortcuts import get_list_or_404, render
+
 
 from goods.models import Products
 
 
 # Create your views here.
-def catalog(request):
+def catalog(request, category_slug):
+    # Filte dropdown menu
+    if category_slug == "all":
+        goods = Products.objects.all()
+    else:
+        goods = get_list_or_404(Products.objects.filter(category__slug=category_slug))
     # Save in another element, not int context
-    goods = Products.objects.all()
-
     context = {
         "title": "Home - Catalog",
         "goods": goods,
