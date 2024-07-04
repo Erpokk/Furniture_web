@@ -15,9 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-from app.settings import DEBUG
+# https://docs.djangoproject.com/en/5.0/topics/http/urls/ For correct urls
+
 from django.contrib import admin
 from django.urls import include, path
+from django.conf.urls.static import static
+
+from app import settings  # OR TRY this from django.conf import settings
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -25,7 +30,9 @@ urlpatterns = [
     path("catalog/", include("goods.urls", namespace="catalog")),
 ]
 
-if DEBUG:
+# Connect debug_toolbar.urls to our website
+if settings.DEBUG:
     urlpatterns += [
         path("__debug__/", include("debug_toolbar.urls")),
     ]
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

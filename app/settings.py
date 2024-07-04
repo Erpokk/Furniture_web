@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
+from django.conf.global_settings import MEDIA_ROOT
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -119,10 +121,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
+# URL PRefix
 STATIC_URL = "static/"
-
+# Add extra fold where to look for static
 STATICFILES_DIRS = [BASE_DIR / "static"]
+# URL PRefix
+MEDIA_URL = "media/"
 
+MEDIA_ROOT = BASE_DIR / "media"
 
 INTERNAL_IPS = [
     # ...

@@ -78,7 +78,7 @@
             "description": "Corner sofa, folds out into a double bed, for the living room and receiving guests is perfect!",
             "image": "",
             "price": "610.00",
-            "disocont": "5.00",
+            "disocont": "0.00",
             "quantity": 0,
             "category": 6
         }
@@ -120,7 +120,7 @@
             "description": "Very cool chair",
             "image": "",
             "price": "30.00",
-            "disocont": "10.00",
+            "disocont": "0.00",
             "quantity": 0,
             "category": 7
         }
@@ -134,7 +134,7 @@
             "description": "Fresh plant",
             "image": "",
             "price": "10.00",
-            "disocont": "20.00",
+            "disocont": "0.00",
             "quantity": 55,
             "category": 9
         }
@@ -148,7 +148,7 @@
             "description": "Another fresh plant",
             "image": "",
             "price": "15.00",
-            "disocont": "33.00",
+            "disocont": "0.00",
             "quantity": 19,
             "category": 9
         }
@@ -162,7 +162,7 @@
             "description": "Very strange",
             "image": "",
             "price": "25.00",
-            "disocont": "2.00",
+            "disocont": "0.00",
             "quantity": 33,
             "category": 5
         }
