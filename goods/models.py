@@ -14,6 +14,9 @@ class Categories(models.Model):
         verbose_name = "Category"
         verbose_name_plural = "Categories"
 
+        # Sorting type for Paginator
+        ordering = ("id",)
+
     def __str__(self):
         return self.name
 
