@@ -6,9 +6,9 @@
             "name": "Table and three chairs",
             "slug": "table-and-three-chairs",
             "description": "Set of three chairs and a designer table for the living room.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
             "price": "150.00",
-            "disocont": "0.00",
+            "discount": "10.00",
             "quantity": 15,
             "category": 4
         }
@@ -20,9 +20,9 @@
             "name": "Table and two chairs",
             "slug": "table-and-two-chairs",
             "description": "A selection of a table and two chairs in a minimalist style.",
-            "image": "",
+            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
             "price": "93.00",
-            "disocont": "0.00",
+            "discount": "5.00",
             "quantity": 17,
             "category": 4
         }
@@ -34,9 +34,9 @@
             "name": "Double bed",
             "slug": "double-bed",
             "description": "The bed is a twin bed with a headboard and is generally very orthopedic.",
-            "image": "",
+            "image": "goods_images/double_bed.jpg",
             "price": "670.00",
-            "disocont": "0.00",
+            "discount": "2.50",
             "quantity": 5,
             "category": 5
         }
@@ -47,10 +47,10 @@
         "fields": {
             "name": "Kitchen table with sink",
             "slug": "kitchen-table-with-sink",
-            "description": "�������� ���� ��� ����� � ���������� ��������� � ��������.",
-            "image": "",
+            "description": "Very beautifull sink",
+            "image": "goods_images/kitchen_table.jpg",
             "price": "365.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 2,
             "category": 4
         }
@@ -62,9 +62,9 @@
             "name": "Kitchen table with built-in",
             "slug": "kitchen-table-with-built-in",
             "description": "Kitchen table with built-in stove and sink. Lots of shelves and generally beautiful.",
-            "image": "",
+            "image": "goods_images/kitchen_table_2.jpg",
             "price": "430.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 7,
             "category": 4
         }
@@ -76,9 +76,9 @@
             "name": "Corner sofa for living room",
             "slug": "corner-sofa-for-living-room",
             "description": "Corner sofa, folds out into a double bed, for the living room and receiving guests is perfect!",
-            "image": "",
+            "image": "goods_images/corner_sofa.jpg",
             "price": "610.00",
-            "disocont": "0.00",
+            "discount": "7.00",
             "quantity": 0,
             "category": 6
         }
@@ -90,9 +90,9 @@
             "name": "Bedside table",
             "slug": "bedside-table",
             "description": "Bedside table with two drawers (flower not included).",
-            "image": "",
+            "image": "goods_images/bedside_table.jpg",
             "price": "55.00",
-            "disocont": "0.00",
+            "discount": "13.00",
             "quantity": 13,
             "category": 5
         }
@@ -104,9 +104,9 @@
             "name": "Common sofa",
             "slug": "common-sofa",
             "description": "The sofa, aka sofa plain, is nothing remarkable to describe.",
-            "image": "",
+            "image": "goods_images/sofa.jpg",
             "price": "190.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 9,
             "category": 6
         }
@@ -118,9 +118,9 @@
             "name": "Chair for office",
             "slug": "chair-for-office",
             "description": "Very cool chair",
-            "image": "",
+            "image": "goods_images/office_chair.jpg",
             "price": "30.00",
-            "disocont": "0.00",
+            "discount": "10.00",
             "quantity": 0,
             "category": 7
         }
@@ -132,9 +132,9 @@
             "name": "Plant",
             "slug": "plant",
             "description": "Fresh plant",
-            "image": "",
+            "image": "goods_images/plants.jpg",
             "price": "10.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 55,
             "category": 9
         }
@@ -146,9 +146,9 @@
             "name": "Another plant",
             "slug": "another-plant",
             "description": "Another fresh plant",
-            "image": "",
+            "image": "goods_images/flower.jpg",
             "price": "15.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 19,
             "category": 9
         }
@@ -160,9 +160,9 @@
             "name": "Another bedside table",
             "slug": "another-bedside-table",
             "description": "Very strange",
-            "image": "",
+            "image": "goods_images/strange_table.jpg",
             "price": "25.00",
-            "disocont": "0.00",
+            "discount": "0.00",
             "quantity": 33,
             "category": 5
         }

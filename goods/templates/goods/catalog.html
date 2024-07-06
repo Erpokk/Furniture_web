@@ -12,15 +12,17 @@
             Filter
         </button>
 
-        <form action="{% url "catalog:index" slug_url %}" method="get" class="dropdown-menu bg-dark" data-bs-theme="dark">
+        <form action="{% if request.GET.q %}{% url "catalog:search" %}{% else %}{% url "catalog:index" slug_url %}{% endif %}" method="get" class="dropdown-menu bg-dark" data-bs-theme="dark">
             <div class="form-check text-white mx-3">
                 <input class="form-check-input" type="checkbox" name="on_sale" id="flexCheckDefault" value="on" {% if request.GET.on_sale == 'on' %}checked{% endif %}>
-                {% comment %} <input type="hidden" name="q" value="request.GET.q"> {% endcomment %}
+                {% if request.GET.q %}
+                    <input type="hidden" name="q" value="{{request.GET.q}}">
+                {% endif %}
                 <label class="form-check-label" for="flexCheckDefault">
                     Goods on sale
                 </label>
             </div>
-            <p class="text-white mx-3 mt-3">Сортировать:</p>
+            <p class="text-white mx-3 mt-3">Sort:</p>
             <div class="form-check text-white mx-3">
                 <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault1" value="default" {% if not request.GET.order_by or request.GET.order_by == 'default' %}checked{% endif %} >
                 <label class="form-check-label" for="flexRadioDefault1">
@@ -39,7 +41,7 @@
                    Expansive to cheap
                 </label>
             </div>
-            <button type="submit" class="btn btn-primary mx-3 mt-3">Применить</button>
+            <button type="submit" class="btn btn-primary mx-3 mt-3">Apply</button>
         </form>
     </div>
 

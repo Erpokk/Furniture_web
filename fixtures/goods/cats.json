@@ -4,7 +4,7 @@
         "pk": 3,
         "fields": {
             "name": "All goods",
-            "slug": null
+            "slug": "all"
         }
     },
     {
