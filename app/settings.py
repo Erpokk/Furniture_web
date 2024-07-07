@@ -147,3 +147,6 @@ INTERNAL_IPS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "users.User"
+
+# For correct work of @login_required
+LOGIN_URL = "/user/login/"
