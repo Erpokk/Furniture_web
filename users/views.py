@@ -1,3 +1,4 @@
+from urllib import request
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse
 from django.http import HttpResponseRedirect
@@ -18,7 +19,7 @@ def login(request):
                 auth.login(request, user)
                 messages.success(request, f"{username} logged in")
 
-                if request.POST.get('next', None):
+                if request.POST.get("next", None):
                     return HttpResponseRedirect(request.POST.get("next"))
 
                 return HttpResponseRedirect(reverse("main:index"))
@@ -60,6 +61,10 @@ def profile(request):
 
     context = {"title": "User Profile", "form": form}
     return render(request, "users/profile.html", context)
+
+
+def users_cart(request):
+    return render(request, "users/users_cart.html")
 
 
 @login_required
