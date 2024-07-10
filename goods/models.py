@@ -1,5 +1,6 @@
 from tabnanny import verbose
 from django.db import models
+from django.urls import reverse
 
 
 # Create your models here.
@@ -47,6 +48,10 @@ class Products(models.Model):
 
     def display_id(self):
         return f"{self.id:05}"
+
+    # method for creating url path
+    def get_absolute_url(self):
+        return reverse("catalog:product", kwargs={"product_slug": self.slug})
 
     def sell_price(self):
         if self.discount:
