@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from carts.admin import CartTabAdmin
 from carts.models import Cart
+from orders.admin import OrderTabulareAdmin
 from users.models import User
 
 admin.site.unregister(User)
@@ -23,6 +24,4 @@ class UserAdmin(admin.ModelAdmin):
         "email",
     ]
     # Connect cart with user
-    inlines = [
-        CartTabAdmin,
-    ]
+    inlines = [CartTabAdmin, OrderTabulareAdmin]
