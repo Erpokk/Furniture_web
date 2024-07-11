@@ -8,7 +8,7 @@
         aria-expanded="false">
         <img class="mx-1" src="{% static "deps/icons/basket2-fill.svg" %}" alt="Catalog Icon" width="24"
             height="24">
-        <span id="goods-in-cart-count">{{ carts.total_qty }}</span>
+        <span id="goods-in-cart-count">{{ carts.total_quantity }}</span>
     </button>
 </div>
 <!-- Разметка модального окна корзины -->
@@ -21,17 +21,12 @@
                     aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <h3 class="text-center mb-4">Cart</h3>
+                <h3 class="text-center mb-4">Корзина</h3>
                 <div class="container" id="cart-items-container">
                     <!-- Разметка корзины -->
                     {% include "carts/includes/included_cart.html" %}
                     <!-- Закончилась разметка корзины -->
                 </div>
-                {% if carts %}
-                <a class="btn btn-dark" href={% url "orders:create_order" %}>
-                    Оформить заказ
-                </a>
-                {% endif %}
             </div>
         </div>
     </div>

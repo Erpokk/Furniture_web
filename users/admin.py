@@ -1,27 +1,16 @@
 from django.contrib import admin
-
 from carts.admin import CartTabAdmin
-from carts.models import Cart
 from orders.admin import OrderTabulareAdmin
+
 from users.models import User
 
-admin.site.unregister(User)
+# admin.site.register(User)
 
-
-# Register your models here.
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
-    list_display = [
-        "username",
-        "first_name",
-        "last_name",
-        "email",
-    ]
-    search_fields = [
-        "username",
-        "first_name",
-        "last_name",
-        "email",
-    ]
-    # Connect cart with user
+    list_display = ["username", "first_name", "last_name", "email",]
+    search_fields = ["username", "first_name", "last_name", "email",]
+
+    
+
     inlines = [CartTabAdmin, OrderTabulareAdmin]
